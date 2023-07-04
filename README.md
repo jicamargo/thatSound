@@ -131,8 +131,12 @@ If you like this project, please give it a ⭐️. Thank you!
 <!-- ACKNOWLEDGEMENTS -->
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- I would like to thank Microverse for this learning opportunity.
-- [Microverse team](https://microverse.org/)
+- I would like to thank:
+  - [Microverse team](https://microverse.org/) for this learning opportunity.
+  - [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio) for the original design idea.
+  - [FreeSound API](https://freesound.org/docs/api/overview.html) for their fantastic database and its API.
+  - [Unsplash](https://unsplash.com/) for the royalty-free images.
+  - [FlatIcon](https://www.flaticon.com/) for the royalty-free icons.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
