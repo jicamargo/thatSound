@@ -1,0 +1,113 @@
+:root {
+  --color-background: #f5f5f5;
+  --color-primary: #3498db;
+  --color-primary-dark: #2980b9;
+  --color-accent: #ff6b6b;
+  --color-accent-background: rgb(0, 207, 162);
+  --color-shadow: rgb(0 0 0 / 30%);
+  --font-size-heading: 24px;
+  --font-weight-heading: bold;
+}
+
+.rockets {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 1rem 2rem;
+}
+
+.RocketCard {
+  background-color: var(--color-background);
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.RocketCard__header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.RocketCard__name {
+  font-size: var(--font-size-heading);
+  font-weight: var(--font-weight-heading);
+  margin: 0;
+}
+
+.RocketCard__reserved-label {
+  color: var(--color-background);
+  background-color: var(--color-accent-background);
+  font-weight: var(--font-weight-heading);
+  padding: 4px 8px;
+  border-radius: 8px;
+}
+
+.RocketCard__body {
+  display: flex;
+}
+
+.RocketCard__image {
+  max-width: 300px;
+  height: auto;
+  border-radius: 4px;
+  margin-right: 16px;
+  object-fit: cover;
+  box-shadow: 6px 6px 10px var(--color-shadow);
+}
+
+.RocketCard__details {
+  flex-grow: 1;
+}
+
+.RocketCard__details p {
+  margin-bottom: 8px;
+}
+
+.RocketCard__details strong {
+  font-weight: var(--font-weight-heading);
+}
+
+.RocketCard__reservation {
+  margin-top: 16px;
+  text-align: left;
+}
+
+.RocketCard__reservation-button {
+  background-color: var(--color-primary);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.RocketCard__reservation-button:hover {
+  background-color: var(--color-primary-dark);
+}
+
+@media (max-width: 600px) and (orientation: portrait) {
+  .rockets {
+    padding: 0;
+  }
+
+  .RocketCard {
+    flex-direction: column;
+  }
+
+  .RocketCard__header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .RocketCard__body {
+    flex-direction: column;
+  }
+
+  .RocketCard__image {
+    margin-right: 0;
+    margin-bottom: 16px;
+    max-width: 100%;
+  }
+}
