@@ -21,7 +21,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Sounds />} />
         <Route path="/sounds" element={<Sounds />} />
-        <Route path="/details/:soundId" element={<SoundDetails />} />
+        <Route path="/details" element={<SoundDetails />} />
         <Route path="/about" />
       </Routes>
     </BrowserRouter>

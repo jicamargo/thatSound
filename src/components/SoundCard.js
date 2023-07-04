@@ -3,26 +3,16 @@ import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { v4 as uuidv4 } from 'uuid';
-import { selectSound, cancelSelection } from '../redux/sounds/soundsSlice';
-
+import { updateSoundDetails } from '../redux/sounds/soundDetailsSlice';
 import '../css/Sounds.css';
 
 function SoundCard({ sound }) {
-  const dispatch = useDispatch();
   const navigate = useNavigate();
-
-  const isSelected = sound.selected;
-
-  const handleSelection = () => {
-    if (isSelected) {
-      dispatch(cancelSelection(sound.id));
-    } else {
-      dispatch(selectSound(sound.id));
-    }
-  };
+  const dispatch = useDispatch();
 
   const handleSoundNameClick = () => {
-    navigate(`/details/${sound.id}`);
+    dispatch(updateSoundDetails(sound));
+    navigate('/details');
   };
 
   return (
@@ -40,8 +30,6 @@ function SoundCard({ sound }) {
         >
           {sound.name}
         </button>
-
-        {isSelected && <span className="SoundCard__selected-label">Selected</span>}
       </div>
       <div className="SoundCard__body">
         {/* <img className="SoundCard__image" src={sound.flickr_images[0]} alt={sound.name} /> */}
@@ -52,11 +40,6 @@ function SoundCard({ sound }) {
                 <li key={uuidv4()}>{tag}</li>
               ))}
             </ul>
-          </div>
-          <div className="SoundCard__selection">
-            <button type="button" className="SoundCard__selection-button" onClick={handleSelection}>
-              {isSelected ? 'Cancel Reservation' : 'Select sound'}
-            </button>
           </div>
         </div>
       </div>

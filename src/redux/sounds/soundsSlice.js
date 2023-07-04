@@ -34,20 +34,6 @@ const SoundsSlice = createSlice({
     saveFilter: (state, action) => {
       state.filter = action.payload;
     },
-    selectSound: (state, action) => {
-      const soundId = action.payload;
-      const sound = state.sounds.find((sound) => sound.id === soundId);
-      if (sound) {
-        sound.selected = true; // Update the selected property to true
-      }
-    },
-    cancelSelection: (state, action) => {
-      const soundId = action.payload;
-      const sound = state.sounds.find((sound) => sound.id === soundId);
-      if (sound) {
-        sound.selected = false; // Update the selected property to false
-      }
-    },
   },
   extraReducers: (builder) => {
     builder
@@ -70,6 +56,6 @@ const SoundsSlice = createSlice({
 });
 
 export const {
-  selectSound, cancelSelection, saveFilter, saveQuery,
+  saveFilter, saveQuery,
 } = SoundsSlice.actions;
 export default SoundsSlice.reducer;
