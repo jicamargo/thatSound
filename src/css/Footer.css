@@ -1,0 +1,27 @@
+.footer {
+  background-color: var(--backcolor2);
+  color: var(--fontcolor1);
+  padding: 16px;
+  text-align: center;
+}
+
+.footer__container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.footer__links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.footer__link {
+  margin: 0 10px;
+  color: var(--fontcolor1);
+  text-decoration: none;
+}
+
+.footer__text {
+  font-size: 12px;
+}

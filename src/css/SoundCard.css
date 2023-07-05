@@ -1,0 +1,131 @@
+:root {
+  --control-font-family: 'Lato', sans-serif;
+  --body-font-family: 'Montserrat', sans-serif;
+  --backcolor1: #dd4498;
+  --backcolor2: #2c2c2c;
+  --backcolor3: rgba(76, 76, 76, 0.6);
+  --fontcolor1: #fff;
+  --fontcolor2: rgb(132, 172, 228);
+}
+
+.SoundCard {
+  display: flex;
+  flex-direction: column;
+  background: rgb(76, 76, 76); /* Old browsers */
+  background: linear-gradient(135deg, rgba(76, 76, 76, 1) 0%, rgba(89, 89, 89, 1) 8%, rgba(102, 102, 102, 1) 16%, rgba(102, 102, 102, 1) 16%, rgba(71, 71, 71, 1) 23%, rgba(71, 71, 71, 1) 28%, rgba(71, 71, 71, 1) 32%, rgba(44, 44, 44, 1) 38%, rgba(0, 0, 0, 1) 48%, rgba(17, 17, 17, 1) 56%, rgba(43, 43, 43, 1) 68%, rgba(43, 43, 43, 1) 80%, rgba(28, 28, 28, 1) 91%, rgba(19, 19, 19, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  color: var(--fontcolor1);
+  padding: 20px 16px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.SoundCard__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 8px 4px;
+  border-radius: 6px;
+  border: 2px solid var(--backcolor3);
+  background: none;
+}
+
+.SoundCard__name {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: var(--control-font-family);
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--fontcolor1);
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.SoundCard__name-icon-cnt {
+  font-family: var(--control-font-family);
+  font-weight: 700;
+  font-size: 22px;
+  color: var(--fontcolor1);
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+}
+
+.SoundCard__header:hover,
+.SoundCard__header:focus {
+  border-color: var(--fontcolor2);
+  box-shadow: 0 0 5px 2px var(--fontcolor2);
+  outline: none;
+}
+
+.SoundCard__body {
+  display: flex;
+  align-items: center;
+}
+
+.SoundCard__details {
+  width: 100%;
+}
+
+.SoundCard__row_duration_and_rating {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  justify-content: space-between;
+  padding: 8px 0;
+}
+
+.soundCard__duration {
+  font-size: 16px;
+}
+
+.RatingStars {
+  margin: 0;
+  padding: 0;
+  line-height: 12px;
+}
+
+.soundCard__ratings-label {
+  font-size: 10px;
+}
+
+.SoundCard__tags ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.SoundCard__tags li {
+  display: inline-block;
+  margin-right: 5px;
+  font-family: var(--body-font-family);
+  font-weight: 400;
+  font-size: 10px;
+  border-radius: 20px;
+  background-color: var(--backcolor1);
+  padding: 3px 6px;
+  color: var(--fontcolor1);
+}
+
+@media (min-width: 600px) {
+  .SoundCard {
+    padding: 30px;
+    width: 40%;
+  }
+}
+
+@media (min-width: 1028px) {
+  .SoundCard {
+    padding: 30px;
+    width: 20%;
+  }
+}

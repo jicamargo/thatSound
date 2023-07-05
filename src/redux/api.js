@@ -2,7 +2,6 @@ import axios from 'axios';
 import { SOUNDS_URL, TOKEN } from './apiconfig';
 
 export const convertFilterInput = (input) => {
-  console.log(input);
   if (input === 'created:[NOW-1YEAR TO NOW]') {
     return input;
   }
@@ -29,7 +28,7 @@ export const fetchSoundsData = async (query, filter, page) => {
   try {
     const encodedQuery = encodeURIComponent(query);
 
-    let URLAPI = `${SOUNDS_URL}search/text/?query=${encodedQuery}&token=${TOKEN}&fields=id,name,previews,images,username,description,duration,tags,download,created,avg_rating,num_ratings`;
+    let URLAPI = `${SOUNDS_URL}search/text/?query=${encodedQuery}&token=${TOKEN}&fields=id,name,previews,images,username,description,duration,tags,download,created,avg_rating,num_ratings,samplerate`;
     if (filter) {
       const encodedFilter = encodeURIComponent(convertFilterInput(filter));
       URLAPI += `&filter=${encodedFilter}`;
@@ -37,7 +36,6 @@ export const fetchSoundsData = async (query, filter, page) => {
     if (page) {
       URLAPI += `&page=${page}`;
     }
-    console.log(URLAPI);
     const response = await axios.get(URLAPI);
     const {
       results, next, previous, count,
