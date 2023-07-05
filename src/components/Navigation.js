@@ -7,7 +7,10 @@ function Navigation() {
     <nav>
       <div className="div-logo">
         <img className="logo-img" src={logoIcon} alt="App Icon" />
-        <span className="logo">thatSound</span>
+        <span className="logo-text">
+          <span className="white-text">that</span>
+          <span className="blue-text">Sound</span>
+        </span>
       </div>
       <ul className="navbar">
         <li>

@@ -1,0 +1,86 @@
+:root {
+  --control-font-family: 'Lato', sans-serif;
+  --body-font-family: 'Montserrat', sans-serif;
+  --backcolor1: #dd4498;
+  --backcolor2: #2c2c2c;
+  --backcolor3: rgba(76, 76, 76, 0.6);
+  --fontcolor1: #fff;
+}
+
+.about-page_main {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--body-font-family);
+  background-color: var(--backcolor1);
+  color: var(--fontcolor1);
+  padding: 16px;
+}
+
+.about-page__info {
+  display: flex;
+  flex-direction: column;
+  background:
+    linear-gradient(135deg, rgba(76, 76, 76, 0.7) 0%, rgba(89, 89, 89, 0.7) 8%, rgba(102, 102, 102, 0.7) 16%, rgba(102, 102, 102, 0.7) 16%, rgba(71, 71, 71, 0.7) 23%, rgba(71, 71, 71, 0.7) 28%, rgba(71, 71, 71, 0.7) 32%, rgba(44, 44, 44, 0.7) 38%, rgba(0, 0, 0, 0.7) 48%, rgba(17, 17, 17, 0.7) 56%, rgba(43, 43, 43, 0.7) 68%, rgba(43, 43, 43, 0.7) 80%, rgba(28, 28, 28, 0.7) 91%, rgba(19, 19, 19, 0.7) 100%),
+    url("../assets/background.avif");
+  color: var(--fontcolor1);
+  padding: 20px 16px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-page__description,
+.about-page__instructions,
+.about-page__credits,
+.about-page__freesound-credits {
+  padding-top: 10px;
+  font-family: var(--control-font-family);
+  font-weight: 400;
+}
+
+.about-page__description h2,
+.about-page__instructions h2,
+.about-page__credits h2,
+.about-page__freesound-credits h2 {
+  font-family: var(--control-font-family);
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.about-page__instructions ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.github_link {
+  color: var(--fontcolor1);
+  text-decoration: none;
+}
+
+@media (min-width: 600px) {
+  .about-page_main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 15px;
+  }
+
+  .about-page__description h2,
+  .about-page__instructions h2,
+  .about-page__credits h2,
+  .about-page__freesound-credits h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  .about-page__description,
+  .about-page__instructions,
+  .about-page__credits,
+  .about-page__freesound-credits {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+}

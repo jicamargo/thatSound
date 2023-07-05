@@ -1,0 +1,114 @@
+:root {
+  --control-font-family: 'Lato', sans-serif;
+  --body-font-family: 'Montserrat', sans-serif;
+  --backcolor1: #dd4498;
+  --fontcolor1: #fff;
+}
+
+.search-sounds {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--body-font-family);
+  margin-bottom: 20px;
+}
+
+.search-tags-inputs-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-input-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.tags-input-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.search-sounds__input {
+  margin-bottom: 10px;
+  padding: 6px;
+  font-family: var(--control-font-family);
+  font-weight: 400;
+  font-size: 14px;
+  margin-right: 0;
+}
+
+.search-next-previous-buttons {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.search-sounds__button {
+  padding: 6px;
+  font-family: var(--control-font-family);
+  font-weight: 700;
+  background-color: var(--backcolor2);
+  border-radius: 6px;
+  color: var(--fontcolor1);
+  border: none;
+  cursor: pointer;
+  width: 90px;
+}
+
+.search-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  color: var(--fontcolor2);
+  font-size: large;
+}
+
+.search-sounds__button-img {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.search-sounds__button:hover,
+.search-sounds__button:focus {
+  border-color: var(--fontcolor2);
+  box-shadow: 0 0 5px 2px var(--fontcolor2);
+  outline: none;
+}
+
+.search-sounds__button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.search-sounds__pagination {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.search-sounds__pagination-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+@media (min-width: 600px) {
+  /* .search-sounds {
+    flex-direction: row;
+    align-items: center;
+  } */
+
+  .search-tags-inputs-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .search-inputs {
+    flex-direction: row;
+  }
+}

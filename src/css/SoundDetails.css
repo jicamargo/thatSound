@@ -1,0 +1,86 @@
+.sound-details_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: var(--body-font-family);
+  background-color: var(--backcolor1);
+  color: var(--fontcolor1);
+  padding: 16px;
+  min-width: 300px;
+}
+
+.sound-details {
+  display: flex;
+  flex-direction: column;
+  background:
+    center / cover no-repeat linear-gradient(135deg, rgba(76, 76, 76, 0.7) 0%, rgba(89, 89, 89, 0.7) 8%, rgba(102, 102, 102, 0.7) 16%, rgba(102, 102, 102, 0.7) 16%, rgba(71, 71, 71, 0.7) 23%, rgba(71, 71, 71, 0.7) 28%, rgba(71, 71, 71, 0.7) 32%, rgba(44, 44, 44, 0.7) 38%, rgba(0, 0, 0, 0.7) 48%, rgba(17, 17, 17, 0.7) 56%, rgba(43, 43, 43, 0.7) 68%, rgba(43, 43, 43, 0.7) 80%, rgba(28, 28, 28, 0.7) 91%, rgba(19, 19, 19, 0.7) 100%),
+    url("../assets/background.avif");
+  color: var(--fontcolor1);
+  padding: 20px 16px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
+  margin: 0 auto;
+  margin-bottom: 20px;
+  text-align: center;
+  max-width: 600px;
+}
+
+.sound-details__header_back_and_download {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 22px;
+}
+
+.sound-details__back-btn {
+  font-size: 22px;
+  background-color: transparent;
+  border: 2px outset rgba(167, 154, 154, 0.7);
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px rgba(167, 154, 154, 0.7);
+  padding: 5px 5px 2px 5px;
+  color: var(--fontcolor1);
+  text-decoration: none;
+}
+
+.sound-details__download {
+  font-size: 22px;
+  background-color: transparent;
+  border: 2px outset rgba(167, 154, 154, 0.7);
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px rgba(167, 154, 154, 0.7);
+  padding: 5px 5px 2px 5px;
+  color: var(--fontcolor1);
+  text-decoration: none;
+}
+
+.sound-details__header_title {
+  margin: 0 auto;
+  padding: 10px 0;
+  word-wrap: break-word;
+  flex-wrap: nowrap;
+  max-width: 80vw;
+}
+
+.waveform__image {
+  height: 40px;
+  width: 100%;
+}
+
+.sound-details__title {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.sound-details__description {
+  margin: 0 auto;
+  padding: 10px 0;
+  word-wrap: break-word;
+  flex-wrap: nowrap;
+  max-width: 80vw;
+}

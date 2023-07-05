@@ -3,6 +3,11 @@
 :root {
   --control-font-family: 'Lato', sans-serif;
   --body-font-family: 'Montserrat', sans-serif;
+  --backcolor1: #dd4498;
+  --backcolor2: #2c2c2c;
+  --backcolor3: rgba(76, 76, 76, 0.6);
+  --fontcolor1: #fff;
+  --fontcolor2: rgb(132, 172, 228);
 }
 
 * {
@@ -13,58 +18,78 @@
 
 body {
   box-sizing: border-box;
-  margin-top: 4rem; /* Add margin to the top of the page content */
+  margin-top: 3.8rem;
+  background-color: var(--backcolor2);
+  min-height: 100vh;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 nav {
+  display: flex;
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 99;
   width: 100%;
-  display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   height: 2rem;
   padding: 1rem;
   border-bottom: solid 1px #e8e8e8;
-  background-color: #e1e0e0;
+  background-color: var(--backcolor2);
+  color: var(--fontcolor1);
 }
 
 nav .div-logo {
   display: flex;
-  justify-content: space-evenly;
-  gap: 0.5rem;
+  align-items: center;
+  gap: 8px;
 }
 
-nav .logo {
+nav .logo-text {
   align-items: center;
   font-weight: bold;
-  font-size: 1.4rem;
+  font-size: 22px;
   height: 2rem;
+}
+
+nav .logo-text .white-text {
+  color: var(--fontcolor1);
+  font-weight: 400;
+}
+
+nav .logo-text .blue-text {
+  color: var(--fontcolor2);
 }
 
 nav .logo-img {
   align-items: center;
   font-weight: bold;
-  font-size: 2rem;
   height: 2.5rem;
 }
 
 .navbar {
   display: flex;
-  align-items: center;
+  margin-top: 2rem;
+  margin-right: 22px;
   list-style: none;
-  gap: 2rem;
 }
 
 .navbar a {
   text-decoration: none;
-  color: black;
+  color: var(--fontcolor1);
+  padding: 5px 8px 8px 8px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .navbar .active {
-  color: rgb(0, 157, 255);
-  text-decoration: underline;
+  background-color: var(--backcolor1);
 }
 
 .navbar li {
@@ -79,7 +104,7 @@ nav .logo-img {
   transform: scale(0.95);
 }
 
-@media (max-width: 600px) and (orientation: portrait) {
+/* @media (max-width: 600px) and (orientation: portrait) {
   nav {
     display: flex;
     align-items: center;
@@ -113,4 +138,4 @@ nav .logo-img {
     gap: 0.5rem;
     font-size: 0.8rem;
   }
-}
+} */

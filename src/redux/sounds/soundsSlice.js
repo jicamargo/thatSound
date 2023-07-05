@@ -15,9 +15,6 @@ export const fetchSounds = createAsyncThunk('Sounds/fetchSounds', async ({ page 
   try {
     const { query, filter } = getState().sounds;
     const response = await fetchSoundsData(query, filter, page);
-    console.log(response);
-    console.log(query);
-    console.log(filter);
     return response;
   } catch (error) {
     throw new Error('Failed to fetch Sounds');
