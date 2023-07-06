@@ -7,7 +7,7 @@
   --backcolor2: #2c2c2c;
   --backcolor3: rgba(76, 76, 76, 0.6);
   --fontcolor1: #fff;
-  --fontcolor2: rgb(132, 172, 228);
+  --fontcolor2: #20A3F5;
 }
 
 * {
@@ -103,39 +103,3 @@ nav .logo-img {
 .navbar li:active {
   transform: scale(0.95);
 }
-
-/* @media (max-width: 600px) and (orientation: portrait) {
-  nav {
-    display: flex;
-    align-items: center;
-    padding: 0.5rem;
-  }
-
-  nav .div-logo {
-    gap: 0.5rem;
-  }
-
-  nav .logo {
-    align-items: center;
-    font-weight: bold;
-    font-size: 0.8rem;
-    line-height: 1rem;
-    height: 2rem;
-    width: 80px;
-  }
-
-  nav .logo-img {
-    align-items: center;
-    font-weight: bold;
-    font-size: 0.8rem;
-    height: 2rem;
-  }
-
-  .navbar {
-    display: flex;
-    align-items: center;
-    list-style: none;
-    gap: 0.5rem;
-    font-size: 0.8rem;
-  }
-} */
