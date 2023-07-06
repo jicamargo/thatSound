@@ -30,13 +30,25 @@
   text-align: center;
 }
 
-.about-page__description,
+.about-page__logo-img {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.about-page__description {
+  padding-top: 0;
+  font-family: var(--control-font-family);
+  font-size: 12px;
+}
+
 .about-page__instructions,
 .about-page__credits,
 .about-page__freesound-credits {
-  padding-top: 10px;
+  padding-top: 26px;
   font-family: var(--control-font-family);
   font-weight: 400;
+  font-size: 12px;
 }
 
 .about-page__description h2,
@@ -45,7 +57,7 @@
 .about-page__freesound-credits h2 {
   font-family: var(--control-font-family);
   font-weight: 700;
-  font-size: 20px;
+  font-size: 16px;
   margin-bottom: 10px;
 }
 
