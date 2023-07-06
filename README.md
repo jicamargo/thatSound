@@ -2,17 +2,16 @@
 
 <div align="center">
   <br/>
-
-  <h1><b>thatSound</b></h1>
-
+  <img src="./src/assets/thatsoundlogo.png" alt="thatSound Logo" width="200"/>
   <br/>
 </div>
-
 <!-- TABLE OF CONTENTS -->
 # 🎵 Table of Contents
 
 - [📖 Description](#description)
 - [🌟 Features](#features)
+- [🔗 Live Demo](#live-demo)
+- [🎥 Video Presentation](#video-presentation)
 - [🚀 Future Features](#future)
 - [💻 Getting Started](#getting-started)
 - [🛠 Technologies Used](#technologies-used)
@@ -39,13 +38,23 @@ thatSound is a powerful React and Redux application that revolutionizes the way 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LIVE DEMO -->
+🔗 Live Demo <a name="live-demo"></a>
+[Check out the live demo of thatSound here.](https://thatsound.netlify.app/)
+
+<!-- VIDEO PRESENTATION -->
+🎥 Video Presentation <a name="video-presentation"></a>
+[Watch the video presentation of thatSound here.](https://www.loom.com/share/e51adb83d815490fac36aa2b83247795?sid=625f0874-b00a-4a17-accd-ab6b88de6d6a)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- FUTURE -->
 ## 🚀 Future Features <a name="future"></a>
 
-- Integration with Sound API: Fetch sound sample data from an API, expanding the collection and ensuring regular updates.
-- Enhanced User Interface: Implement professional styling to provide an engaging and visually appealing experience that matches the design standards.
+- User Accounts: Create a user account to save your favorite sound samples, comment and rate samples.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- GETTING STARTED -->
 ## 💻 Getting Started <a name="getting-started"></a>
