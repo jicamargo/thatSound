@@ -5,63 +5,90 @@
   <img src="./src/assets/thatsoundlogo.png" alt="thatSound Logo" width="400"/>
   <br/>
 </div>
-<!-- TABLE OF CONTENTS -->
-# 🎵 Table of Contents
 
-- [📖 Description](#description)
-- [🌟 Features](#features)
-- [🔗 Live Demo](#live-demo)
-- [🎥 Video Presentation](#video-presentation)
-- [🚀 Future Features](#future)
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+  - [🎥 App Video Presentation ](#video-demo)
 - [💻 Getting Started](#getting-started)
-- [🛠 Technologies Used](#technologies-used)
-- [👥 Authors](#-authors-)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
-- [👍 Show your support](#️-show-your-support-)
-- [🙏 Acknowledgments](#-acknowledgments-)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-<!-- DESCRIPTION -->
-## 📖 Description <a name="description"></a>
+<!-- PROJECT DESCRIPTION -->
 
-thatSound is a powerful React and Redux application that revolutionizes the way you discover, explore, and download sound samples. It provides a seamless user experience for musicians, producers, and sound enthusiasts by offering a vast collection of high-quality sound samples from various genres and instruments. With thatSound, you can elevate your creative projects and unlock a world of sonic possibilities.
+# 📖 [your_project_name] <a name="about-project"></a>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+**thatSound** is a powerful React and Redux application that revolutionizes the way you discover, explore, and download sound samples. It provides a seamless user experience for musicians, producers, and sound enthusiasts by offering a vast collection of high-quality sound samples from various genres and instruments.
 
-<!-- FEATURES -->
-## 🌟 Features <a name="features"></a>
+## 🛠 Built With <a name="built-with"></a>
 
-- Extensive Sound Library: Access a meticulously curated collection of high-quality sound samples spanning various genres, instruments, atmospheres, and moods.
-- Advanced Search and Filtering: Effortlessly find the perfect sound sample using advanced search filters, tags, and categories such as genre, mood, instrument, and more.
-- Seamlessly Download and Save: Conveniently download and save your selected sound samples to your device or cloud storage for easy access and integration into your projects.
-- Intuitive User Interface: Enjoy a seamless user experience with a clean, intuitive, and responsive user interface that is easy to navigate and use.
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js: JavaScript library for building user interfaces.</a></li>
+    <li><a href="https://react-redux.js.org/">Redux.j: State management library for managing global application state.</a></li>
+    <li>HTML: Markup language for creating the structure of web pages.</li>
+    <li>CSS: Styling language for designing the visual presentation of web pages.</li>
+    <li>JavaScript: Programming language for implementing interactive functionality.</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://freesound.org/docs/api/overview.html">Free Sound API</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **Extensive Sound Library**: Access a meticulously curated collection of high-quality sound samples spanning various genres, instruments, atmospheres, and moods.
+- **Advanced Search and Filtering**: Effortlessly find the perfect sound sample using advanced search filters, tags, and categories such as genre, mood, instrument, and more.
+- **Seamlessly Download and Save**: Conveniently download and save your selected sound samples to your device or cloud storage for easy access and integration into your projects.
+- **Intuitive User Interface**: Enjoy a seamless user experience with a clean, intuitive, and responsive user interface that is easy to navigate and use.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
-## 🔗 Live Demo <a name="live-demo"></a>
-[Check out the live demo of thatSound here.](https://thatsound.netlify.app/)
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://thatsound.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- VIDEO PRESENTATION -->
-## 🎥 Video Presentation <a name="video-presentation"></a>
-[Watch the video presentation of thatSound here.](https://www.loom.com/share/e51adb83d815490fac36aa2b83247795?sid=625f0874-b00a-4a17-accd-ab6b88de6d6a)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE -->
-## 🚀 Future Features <a name="future"></a>
-
-- User Accounts: Create a user account to save your favorite sound samples, comment and rate samples.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+## 🎥 App Video Presentation <a name="video-demo"></a>
+[App video presentation](https://www.loom.com/share/e51adb83d815490fac36aa2b83247795?sid=625f0874-b00a-4a17-accd-ab6b88de6d6a)
 
 <!-- GETTING STARTED -->
+
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy of the project up and running, follow these steps:
+To get a local copy up and running, follow these steps.
+
 
 ### Prerequisites
 Ensure that you have Node.js installed on your machine.
@@ -95,51 +122,69 @@ Build the optimized production-ready bundle.
 npm run build
 ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### Usage
 
-<!-- TECHNOLOGIES USED -->
+To run the project, execute the following command:
 
+```shell
+npm start
+```
 
-## 🛠 Technologies Used <a name="technologies-used"></a>
+### Run tests
 
-- React: JavaScript library for building user interfaces.
-- Redux: State management library for managing global application state.
-- HTML: Markup language for creating the structure of web pages.
-- CSS: Styling language for designing the visual presentation of web pages.
-- JavaScript: Programming language for implementing interactive functionality.
+To run tests, run the following command:
+
+```shell
+npm run test
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
+
 ## 👥 Authors <a name="authors"></a>
 
-### 👤 **Jorge Camargo**  
+👤 **Jorge Camargo**
 
-  - GitHub: [@jicamargo](https://github.com/jicamargo)
-  - Twitter: [@ji_camargo](https://twitter.com/ji_camargo)
-  - LinkedIn: [LinkedIn](https://linkedin.com/in/jorgecamargog)
+- GitHub: [@jicamargo](https://github.com/jicamargo)
+- Twitter: [@ji_camargo](https://twitter.com/ji_camargo)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/jorgecamargog)
 
   _Feel free to reach out to me if you have any questions or collaboration opportunities!_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **User Accounts:** Create a user account to save your favorite sound samples, comment and rate samples.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- CONTRIBUTING -->
+
 ## 🤝 Contributing <a name="contributing"></a>
 
+Contributions, issues, and feature requests are welcome!
 
-Contributions are welcome! If you have any ideas, improvements, or bug fixes, please open an issue or submit a pull request. For major changes, please discuss them with the project maintainers first.
+Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
-## 👍 Show your support <a name="support"></a>
+## ⭐️ Show your support <a name="support"></a>
 
 If you like this project, please give it a ⭐️. Thank you!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
+
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 - I would like to thank:
@@ -149,13 +194,13 @@ If you like this project, please give it a ⭐️. Thank you!
   - [Unsplash](https://unsplash.com/) for the royalty-free images.
   - [FlatIcon](https://www.flaticon.com/) for the royalty-free icons.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
+
 ## 📝 License <a name="license"></a>
 
-This project is [MIT licensed](LICENSE).
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
