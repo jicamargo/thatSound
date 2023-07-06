@@ -1,7 +1,7 @@
 .footer {
   background-color: var(--backcolor2);
   color: var(--fontcolor1);
-  padding: 16px;
+  padding: 20px 0 40px 0;
   text-align: center;
 }
 
@@ -13,13 +13,15 @@
 .footer__links {
   display: flex;
   justify-content: center;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .footer__link {
   margin: 0 10px;
   color: var(--fontcolor1);
   text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .footer__text {
