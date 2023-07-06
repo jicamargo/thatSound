@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation should render Navigation component correctly 1`] = `
+<div>
+  <nav>
+    <div
+      class="div-logo"
+    >
+      <img
+        alt="App Icon"
+        class="logo-img"
+        src="wave-sound.png"
+      />
+      <span
+        class="logo-text"
+      >
+        <span
+          class="white-text"
+        >
+          that
+        </span>
+        <span
+          class="blue-text"
+        >
+          Sound
+        </span>
+      </span>
+    </div>
+    <ul
+      class="navbar"
+    >
+      <li>
+        <a
+          activeclassname="active"
+          class="menu-item"
+          href="/Sounds"
+        >
+          Sounds
+        </a>
+      </li>
+      <li>
+        <a
+          activeclassname="active"
+          class="menu-item"
+          href="/Details"
+        >
+          Details
+        </a>
+      </li>
+      <li>
+        <a
+          activeclassname="active"
+          class="menu-item"
+          href="/About"
+        >
+          About
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+`;
