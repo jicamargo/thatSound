@@ -2,7 +2,7 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import { Provider } from 'react-redux';
 import { configureStore } from '@reduxjs/toolkit';
-import { MemoryRouter, Route } from 'react-router-dom';
+import { MemoryRouter } from 'react-router-dom';
 import SoundDetails from '../components/SoundDetails';
 
 describe('SoundDetails component', () => {
@@ -30,7 +30,7 @@ describe('SoundDetails component', () => {
     expect(queryByText(/please select a sound to have details/i)).toBeNull();
   });
 
-    test('renders "please select a sound" state correctly', () => {
+  test('renders "please select a sound" state correctly', () => {
     const store = configureStore({
       reducer: {
         soundDetails: () => ({
@@ -84,7 +84,7 @@ describe('SoundDetails component', () => {
       },
     });
 
-    const { getByText, queryByText, getByAltText } = render(
+    const { getByText, queryByText } = render(
       <Provider store={store}>
         <MemoryRouter>
           <SoundDetails />

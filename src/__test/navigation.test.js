@@ -8,7 +8,7 @@ describe('Navigation', () => {
     const { container } = render(
       <MemoryRouter>
         <Navigation />
-      </MemoryRouter>
+      </MemoryRouter>,
     );
     expect(container).toMatchSnapshot();
   });

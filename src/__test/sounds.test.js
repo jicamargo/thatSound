@@ -43,13 +43,14 @@ describe('Sounds component', () => {
     expect(queryByText(/loading/i)).toBeNull();
     expect(getByText(/no sounds available/i)).toBeInTheDocument();
   });
-  
+
   test('renders sounds correctly', () => {
     const store = configureStore({
       reducer: {
-        sounds: () => ({ loading: false, 
+        sounds: () => ({
+          loading: false,
           sounds: [
-            { 
+            {
               id: 1,
               name: 'Sound 1',
               selected: false,
@@ -60,7 +61,7 @@ describe('Sounds component', () => {
               num_ratings: 10,
               tags: ['tag1', 'tag2'],
             },
-            { 
+            {
               id: 2,
               name: 'Sound 2',
               selected: true,

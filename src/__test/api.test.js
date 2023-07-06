@@ -45,8 +45,7 @@ describe('fetchSoundsData', () => {
     rate: 'https://freesound.org/apiv2/sounds/231341/rate/',
     comments: 'https://freesound.org/apiv2/sounds/231341/comments/',
     num_comments: 35,
-  }
-
+  };
 
   it('should fetch and process sounds data correctly', async () => {
     // Mock the axios get function and its response

@@ -5,6 +5,9 @@ import '../css/About.css';
 const About = () => (
   <section className="about-page_main">
     <section className="about-page__info">
+      <div className="about-page__logo">
+        <img className="about-page__logo-img" src='../assets/thatsoundlogo.png' alt="app logo" />
+      </div>
       <div className="about-page__description">
         <h2>About the App</h2>
         <p>This app allows you to explore and download sounds from Freesound.org.</p>
