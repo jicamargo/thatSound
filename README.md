@@ -83,6 +83,8 @@
 ## 🎥 App Video Presentation <a name="video-demo"></a>
 [App video presentation](https://www.loom.com/share/e51adb83d815490fac36aa2b83247795?sid=625f0874-b00a-4a17-accd-ab6b88de6d6a)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
