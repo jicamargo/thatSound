@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0839cb8a.css",
+    "main.js": "/static/js/main.7efbb9f9.js",
+    "static/media/thatsoundlogo.png": "/static/media/thatsoundlogo.df3d2b5521d795b24e82.png",
+    "static/media/background.avif": "/static/media/background.4a3aff8e5bff3549d4a0.avif",
+    "index.html": "/index.html",
+    "main.0839cb8a.css.map": "/static/css/main.0839cb8a.css.map",
+    "main.7efbb9f9.js.map": "/static/js/main.7efbb9f9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0839cb8a.css",
+    "static/js/main.7efbb9f9.js"
+  ]
+}
