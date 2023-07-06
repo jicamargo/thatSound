@@ -34,7 +34,7 @@ thatSound is a powerful React and Redux application that revolutionizes the way 
 - Extensive Sound Library: Access a meticulously curated collection of high-quality sound samples spanning various genres, instruments, atmospheres, and moods.
 - Advanced Search and Filtering: Effortlessly find the perfect sound sample using advanced search filters, tags, and categories such as genre, mood, instrument, and more.
 - Seamlessly Download and Save: Conveniently download and save your selected sound samples to your device or cloud storage for easy access and integration into your projects.
-- Regular Updates: Stay up-to-date with the latest trends, new sound packs, and exclusive releases from renowned artists and producers.
+- Intuitive User Interface: Enjoy a seamless user experience with a clean, intuitive, and responsive user interface that is easy to navigate and use.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
