@@ -32,9 +32,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [thatSound] <a name="about-project"></a>
 
-**thatSound** is a powerful React and Redux application that revolutionizes the way you discover, explore, and download sound samples. It provides a seamless user experience for musicians, producers, and sound enthusiasts by offering a vast collection of high-quality sound samples from various genres and instruments.
+**[thatSound]** is a powerful React and Redux application that revolutionizes the way you discover, explore, and download sound samples. It provides a seamless user experience for musicians, producers, and sound enthusiasts by offering a vast collection of high-quality sound samples from various genres and instruments.
 
 ## 🛠 Built With <a name="built-with"></a>
 
