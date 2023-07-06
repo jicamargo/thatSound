@@ -39,11 +39,11 @@ thatSound is a powerful React and Redux application that revolutionizes the way 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
-🔗 Live Demo <a name="live-demo"></a>
+## 🔗 Live Demo <a name="live-demo"></a>
 [Check out the live demo of thatSound here.](https://thatsound.netlify.app/)
 
 <!-- VIDEO PRESENTATION -->
-🎥 Video Presentation <a name="video-presentation"></a>
+## 🎥 Video Presentation <a name="video-presentation"></a>
 [Watch the video presentation of thatSound here.](https://www.loom.com/share/e51adb83d815490fac36aa2b83247795?sid=625f0874-b00a-4a17-accd-ab6b88de6d6a)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
