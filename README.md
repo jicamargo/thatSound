@@ -160,8 +160,6 @@ npm run test
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
 - [ ] **User Accounts:** Create a user account to save your favorite sound samples, comment and rate samples.
 
 
