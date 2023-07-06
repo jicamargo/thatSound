@@ -2,7 +2,7 @@
 
 <div align="center">
   <br/>
-  <img src="./src/assets/thatsoundlogo.png" alt="thatSound Logo" width="200"/>
+  <img src="./src/assets/thatsoundlogo.png" alt="thatSound Logo" width="400"/>
   <br/>
 </div>
 <!-- TABLE OF CONTENTS -->
